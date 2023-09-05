@@ -23,7 +23,7 @@ class _LoginUIState extends State<LoginUI> {
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
               SizedBox(
-                height: MediaQuery.of(context).size.width * 0.129,
+                height: MediaQuery.of(context).size.width * 0.125,
               ),
               Padding(
                 padding: EdgeInsets.only(
@@ -77,20 +77,6 @@ class _LoginUIState extends State<LoginUI> {
                       'assets/images/logo.png',
                       width: MediaQuery.of(context).size.width * 0.25,
                     ),
-                    // Text(
-                    //   'Hello, ',
-                    //   style: GoogleFonts.itim(
-                    //     fontSize: MediaQuery.of(context).size.width * 0.1,
-                    //     color: Colors.black,
-                    //   ),
-                    // ),
-                    // Text(
-                    //   'Welcome.',
-                    //   style: GoogleFonts.itim(
-                    //     fontSize: MediaQuery.of(context).size.width * 0.1,
-                    //     color: Colors.yellow[700],
-                    //   ),
-                    // ),
                   ],
                 ),
               ),
@@ -119,7 +105,7 @@ class _LoginUIState extends State<LoginUI> {
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15),
                       borderSide: BorderSide(
-                        color: Colors.grey,
+                        color: Colors.blue,
                       ),
                     ),
                   ),
@@ -147,7 +133,7 @@ class _LoginUIState extends State<LoginUI> {
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15),
                       borderSide: BorderSide(
-                        color: Colors.grey,
+                        color: Colors.blue,
                       ),
                     ),
                   ),

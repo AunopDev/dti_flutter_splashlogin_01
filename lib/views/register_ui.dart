@@ -25,7 +25,7 @@ class _RegisterUIState extends State<RegisterUI> {
               Padding(
                 padding: EdgeInsets.only(
                   left: MediaQuery.of(context).size.width * 0.05,
-                  top: MediaQuery.of(context).size.width * 0.05,
+                  top: MediaQuery.of(context).size.width * 0.125,
                 ),
                 child: Row(
                   children: [
@@ -63,6 +63,34 @@ class _RegisterUIState extends State<RegisterUI> {
                 child: TextField(
                   keyboardType: TextInputType.number,
                   decoration: InputDecoration(
+                    hintText: '   Email',
+                    hintStyle: GoogleFonts.itim(
+                      color: Colors.grey[300],
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(15),
+                      borderSide: BorderSide(
+                        color: Colors.black,
+                      ),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(15),
+                      borderSide: BorderSide(
+                        color: Colors.blue,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.only(
+                  right: MediaQuery.of(context).size.width * 0.1,
+                  left: MediaQuery.of(context).size.width * 0.1,
+                  top: MediaQuery.of(context).size.width * 0.075,
+                ),
+                child: TextField(
+                  keyboardType: TextInputType.number,
+                  decoration: InputDecoration(
                     hintText: '   Username',
                     hintStyle: GoogleFonts.itim(
                       color: Colors.grey[300],
@@ -76,7 +104,7 @@ class _RegisterUIState extends State<RegisterUI> {
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15),
                       borderSide: BorderSide(
-                        color: Colors.grey,
+                        color: Colors.blue,
                       ),
                     ),
                   ),
@@ -104,7 +132,7 @@ class _RegisterUIState extends State<RegisterUI> {
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15),
                       borderSide: BorderSide(
-                        color: Colors.grey,
+                        color: Colors.blue,
                       ),
                     ),
                   ),
@@ -132,7 +160,7 @@ class _RegisterUIState extends State<RegisterUI> {
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15),
                       borderSide: BorderSide(
-                        color: Colors.grey,
+                        color: Colors.blue,
                       ),
                     ),
                   ),

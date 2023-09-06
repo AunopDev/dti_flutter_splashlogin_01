@@ -108,6 +108,8 @@ class _LoginUIState extends State<LoginUI> {
                         color: Colors.blue,
                       ),
                     ),
+                    filled: true,
+                    fillColor: Colors.green[400],
                   ),
                 ),
               ),
@@ -135,6 +137,16 @@ class _LoginUIState extends State<LoginUI> {
                       borderSide: BorderSide(
                         color: Colors.blue,
                       ),
+                    ),
+                    filled: true,
+                    fillColor: Colors.green[400],
+                    suffixIcon: IconButton(
+                      icon: Icon(
+                        FontAwesomeIcons.solidEye,
+                        color: Colors.grey[300],
+                        size: MediaQuery.of(context).size.width * 0.04,
+                      ),
+                      onPressed: () {},
                     ),
                   ),
                 ),
